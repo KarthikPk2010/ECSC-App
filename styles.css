@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    user-select: none;
+    display: grid;
+    place-items :center;
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(221, 233, 255);
+    font-size: 1.6rem;
+}
+.name{
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+.phasec,.oh_wp_c,.length_c,.prc,.pic,.ht_stay_c,.lt_stay_c,.ht_strut_c,.lt_strut_c,.wpsp_c,.tc,.clc{
+    height: 2rem;
+    display: grid;
+    place-items: center;
+    width: 50%;
+    grid-auto-flow: column;
+}
+.pic{
+    width: 85%;
+}
+.clc{
+    width: 85%;
+}
+.oh_wp_c{
+    width: 65%;
+}
+.length_c{
+    width: 65%;
+}
+.prc{
+    width: 60%;
+}
+.button{
+    font-size: large;
+}
+.a{
+    width: 3rem;
+    height: 2rem;
+    font-size: large;
+}
+.b{
+    width: 6rem;
+}
